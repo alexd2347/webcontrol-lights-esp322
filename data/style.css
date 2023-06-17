@@ -1,0 +1,57 @@
+html {
+  font-family: Helvetica;
+  text-align: center;
+
+}
+
+.body {
+  background: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(82, 0, 82);
+  padding: 2vh;
+  font-weight: bold;
+}
+
+.button {
+  text-align: center;
+  display: inline-block;
+  background-color: #ffffff;
+  width: 8rem;
+  height: 2.5rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 0.5rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+
+}
+
+.button2 {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.menu {
+  color: rgb(255, 255, 255);
+  background-color: rgb(155, 0, 155);
+  padding: 0.5rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: .2rem;
+}
